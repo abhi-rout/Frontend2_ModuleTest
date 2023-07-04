@@ -1,0 +1,56 @@
+*{
+  background-color: black;
+  color:white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+
+  margin: 20px;
+  
+}
+
+h1 {
+  text-align: left;
+  margin: 20px;
+}
+
+table {
+  width: 90%;
+  margin:20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+tbody{
+  border: 1px solid white;
+}
+
+
+
+#searchInput {
+  margin:20px;
+  text-align: center;
+  width: 90%;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 30%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width:20%;
+  padding: 8px;
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Management System</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <h1>Student Management CRUD</h1>
+
+  <form id="studentForm">
+
+    
+    <input type="text" id="name" placeholder="Name" required>
+    
+    <input type="number" id="age" placeholder="Age" required>
+    
+    <input type="text" id="grade" placeholder="Grade" required>
+    
+    <input type="text" id="degree" placeholder="Degree" required>
+    
+    <input type="email" id="email"  placeholder="Email" required><br>
+    <button type="submit" id="addStudentBtn" onclick="addStudent()">Add Student</button>
+  </form><br>
+
+  <input type="text" id="searchInput" placeholder="Search by name, email, or degree">
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+        <th>Degree</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+      
+    </thead>
+    <tbody id="studentList">
+
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
